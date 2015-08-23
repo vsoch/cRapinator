@@ -2,7 +2,7 @@
 
 ** under development **
 
-Are you highly allergic to using R, have a conniption fit when you need to develop a web application with some specialized function or data object (those statisticians!)? Thought hard about using subprocess or os.popen in python, and decided to choose server life? Then you need the cRapinator: a simple bash script to set up R, RServe, and FastRWeb to serve R plots and functions from some virtual machine. You can run this on your VM of choice (I used Amazon, ami-5189a661, t2.micro Ubuntu server), but you could use Google, Docker, etc. This is pretty raw, please fork and PR to contribute if when you improve it.
+Are you highly allergic to using R, have a conniption fit when you need to develop a web application with some specialized function or data object and someone suggests... shiny? Thought hard about using subprocess or os.popen in python, and decided to [choose  life](https://www.youtube.com/watch?v=4m604_bEuNw)? Then you need the cRapinator: a simple bash script to set up R, RServe, and FastRWeb to serve R plots and functions from some virtual machine. You can run this on your VM of choice (I used Amazon, ami-5189a661, t2.micro Ubuntu server), but you could use Google, Docker, etc. This is pretty raw, please fork and PR to contribute if when you improve it.
 
 ### Anticipated Issues
 
