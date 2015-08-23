@@ -81,10 +81,9 @@ sudo bash install.sh
 # system.file("cgi-bin", package="FastRWeb")
 # /usr/local/lib/R/library/FastRWeb/cgi-bin
 sudo cp /usr/local/lib/R/library/FastRWeb/cgi-bin/Rcgi /usr/lib/cgi-bin/R
-sudo vim /var/FastRWeb/code/rserve.conf
-# I added 
-# keep-alive enable
-# remote enable
+# Not sure if this will keep it alive, but it's supposed to
+sudo echo 'keep-alive enable' >> /var/FastRWeb/code/rserve.conf
+sudo echo 'remote enable' >> /var/FastRWeb/code/rserve.conf
 sudo /var/FastRWeb/code/start
 
 # Test it out
