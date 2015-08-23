@@ -111,7 +111,7 @@ if ! [ -f  /var/FastRWeb/web.R/json.R ]; then
       data = as.data.frame(var)
       return(toJSON(var))
     }""" >/tmp/abcdef
-  sudo cp /tmp/abcdef  /var/FastRWeb/web.R/foo.json.R
+  sudo cp /tmp/abcdef  /var/FastRWeb/web.R/json.R
   sudo chmod 755 /var/FastRWeb/web.R/json.R
 fi
 
